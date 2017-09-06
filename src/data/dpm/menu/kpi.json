@@ -1,0 +1,399 @@
+{
+  "count": 1,
+  "total": 1,
+  "list": [
+    {
+      "id": "KPI",
+      "nameZh": "指标",
+      "nameEn": "KPI",
+      "itemList": [
+        {
+          "id": "page.oeeView",
+          "nameZh": "OEE",
+          "nameEn": "OEE",
+          "url": "/views/dpm/oeeView.xhtml",
+          "note": null,
+          "iconName": "bar-chart",
+          "queryItemList": [
+            {
+              "id": "intervalType",
+              "nameZh": "时长类型",
+              "nameEn": "Interval Type",
+              "type": "SELECT_ONE",
+              "url": "/dpm/queryItem/intervalType/OEE"
+            },
+            {
+              "id": "areaDbid",
+              "nameZh": "区域",
+              "nameEn": "Area",
+              "type": "SELECT_ONE",
+              "url": "/dpm/queryItem/area/OEE"
+            }
+          ],
+          "subMenuItemList": []
+        },
+        {
+          "id": "page.oeeByWorkCenterView",
+          "nameZh": "OEE (设备)",
+          "nameEn": "OEE (Equipment)",
+          "url": "/views/dpm/oeeByWorkCenterView.xhtml",
+          "note": null,
+          "iconName": "bar-chart",
+          "queryItemList": [
+            {
+              "id": "intervalType",
+              "nameZh": "时长类型",
+              "nameEn": "Interval Type",
+              "type": "SELECT_ONE",
+              "url": "/dpm/queryItem/intervalType/OEE"
+            },
+            {
+              "id": "areaDbid",
+              "nameZh": "区域",
+              "nameEn": "Area",
+              "type": "SELECT_ONE",
+              "url": "/dpm/queryItem/area/OEE"
+            }
+          ],
+          "subMenuItemList": []
+        },
+        {
+          "id": "page.outputView",
+          "nameZh": "产量",
+          "nameEn": "Output",
+          "url": "/views/dpm/outputView.xhtml",
+          "note": null,
+          "iconName": "bar-chart",
+          "queryItemList": [
+            {
+              "id": "intervalType",
+              "nameZh": "时长类型",
+              "nameEn": "Interval Type",
+              "type": "SELECT_ONE",
+              "url": "/dpm/queryItem/intervalType/OUTPUT"
+            },
+            {
+              "id": "areaDbid",
+              "nameZh": "区域",
+              "nameEn": "Area",
+              "type": "SELECT_ONE",
+              "url": "/dpm/queryItem/area/OUTPUT"
+            }
+          ],
+          "subMenuItemList": []
+        },
+        {
+          "id": "page.scheduleHitRateView",
+          "nameZh": "计划达成率",
+          "nameEn": "Schedule Hit Rate",
+          "url": "/views/dpm/scheduleHitRateView.xhtml",
+          "note": null,
+          "iconName": "bar-chart",
+          "queryItemList": [
+            {
+              "id": "intervalType",
+              "nameZh": "时长类型",
+              "nameEn": "Interval Type",
+              "type": "SELECT_ONE",
+              "url": "/dpm/queryItem/intervalType/SCHEDULE_HIT_RATE"
+            },
+            {
+              "id": "areaDbid",
+              "nameZh": "区域",
+              "nameEn": "Area",
+              "type": "SELECT_ONE",
+              "url": "/dpm/queryItem/area/SCHEDULE_HIT_RATE"
+            }
+          ],
+          "subMenuItemList": []
+        },
+        {
+          "id": "page.yieldView",
+          "nameZh": "合格率",
+          "nameEn": "Yield",
+          "url": "/views/dpm/yieldView.xhtml",
+          "note": null,
+          "iconName": "bar-chart",
+          "queryItemList": [
+            {
+              "id": "intervalType",
+              "nameZh": "时长类型",
+              "nameEn": "Interval Type",
+              "type": "SELECT_ONE",
+              "url": "/dpm/queryItem/intervalType/YIELD"
+            },
+            {
+              "id": "areaDbid",
+              "nameZh": "区域",
+              "nameEn": "Area",
+              "type": "SELECT_ONE",
+              "url": "/dpm/queryItem/area/YIELD"
+            }
+          ],
+          "subMenuItemList": []
+        },
+        {
+          "id": "page.fpyView",
+          "nameZh": "一次合格率",
+          "nameEn": "Fpy",
+          "url": "/views/dpm/fpyView.xhtml",
+          "note": null,
+          "iconName": "bar-chart",
+          "queryItemList": [
+            {
+              "id": "intervalType",
+              "nameZh": "时长类型",
+              "nameEn": "Interval Type",
+              "type": "SELECT_ONE",
+              "url": "/dpm/queryItem/intervalType/FPY"
+            },
+            {
+              "id": "areaDbid",
+              "nameZh": "区域",
+              "nameEn": "Area",
+              "type": "SELECT_ONE",
+              "url": "/dpm/queryItem/area/FPY"
+            }
+          ],
+          "subMenuItemList": []
+        },
+        {
+          "id": "page.reworkedRateView",
+          "nameZh": "抛光率",
+          "nameEn": "Reworked%",
+          "url": "/views/dpm/reworkedRateView.xhtml",
+          "note": null,
+          "iconName": "bar-chart",
+          "queryItemList": [
+            {
+              "id": "intervalType",
+              "nameZh": "时长类型",
+              "nameEn": "Interval Type",
+              "type": "SELECT_ONE",
+              "url": "/dpm/queryItem/intervalType/REWORKED_RATE"
+            },
+            {
+              "id": "areaDbid",
+              "nameZh": "区域",
+              "nameEn": "Area",
+              "type": "SELECT_ONE",
+              "url": "/dpm/queryItem/area/REWORKED_RATE"
+            }
+          ],
+          "subMenuItemList": []
+        },
+        {
+          "id": "page.repairRateView",
+          "nameZh": "打磨率",
+          "nameEn": "Repair%",
+          "url": "/views/dpm/repairRateView.xhtml",
+          "note": null,
+          "iconName": "bar-chart",
+          "queryItemList": [
+            {
+              "id": "intervalType",
+              "nameZh": "时长类型",
+              "nameEn": "Interval Type",
+              "type": "SELECT_ONE",
+              "url": "/dpm/queryItem/intervalType/REPAIR_RATE"
+            },
+            {
+              "id": "areaDbid",
+              "nameZh": "区域",
+              "nameEn": "Area",
+              "type": "SELECT_ONE",
+              "url": "/dpm/queryItem/area/REPAIR_RATE"
+            }
+          ],
+          "subMenuItemList": []
+        },
+        {
+          "id": "page.scrapRateView",
+          "nameZh": "报废率",
+          "nameEn": "Scrap Rate",
+          "url": "/views/dpm/scrapRateView.xhtml",
+          "note": null,
+          "iconName": "bar-chart",
+          "queryItemList": [
+            {
+              "id": "intervalType",
+              "nameZh": "时长类型",
+              "nameEn": "Interval Type",
+              "type": "SELECT_ONE",
+              "url": "/dpm/queryItem/intervalType/SCRAP_RATE"
+            },
+            {
+              "id": "areaDbid",
+              "nameZh": "区域",
+              "nameEn": "Area",
+              "type": "SELECT_ONE",
+              "url": "/dpm/queryItem/area/SCRAP_RATE"
+            }
+          ],
+          "subMenuItemList": []
+        },
+        {
+          "id": "page.defectRateView",
+          "nameZh": "缺陷率",
+          "nameEn": "Defect Rate",
+          "url": "/views/dpm/defectRateView.xhtml",
+          "note": null,
+          "iconName": "bar-chart",
+          "queryItemList": [
+            {
+              "id": "intervalType",
+              "nameZh": "时长类型",
+              "nameEn": "Interval Type",
+              "type": "SELECT_ONE",
+              "url": "/dpm/queryItem/intervalType/DEFECT_RATE"
+            },
+            {
+              "id": "areaDbid",
+              "nameZh": "区域",
+              "nameEn": "Area",
+              "type": "SELECT_ONE",
+              "url": "/dpm/queryItem/area/DEFECT_RATE"
+            }
+          ],
+          "subMenuItemList": []
+        },
+        {
+          "id": "page.stopRateView",
+          "nameZh": "停机率",
+          "nameEn": "Stop Rate",
+          "url": "/views/dpm/stopRateView.xhtml",
+          "note": null,
+          "iconName": "bar-chart",
+          "queryItemList": [
+            {
+              "id": "intervalType",
+              "nameZh": "时长类型",
+              "nameEn": "Interval Type",
+              "type": "SELECT_ONE",
+              "url": "/dpm/queryItem/intervalType/STOP_RATE"
+            },
+            {
+              "id": "areaDbid",
+              "nameZh": "区域",
+              "nameEn": "Area",
+              "type": "SELECT_ONE",
+              "url": "/dpm/queryItem/area/STOP_RATE"
+            }
+          ],
+          "subMenuItemList": []
+        },
+        {
+          "id": "page.stopDurationView",
+          "nameZh": "停机时间",
+          "nameEn": "Stop Duration",
+          "url": "/views/dpm/stopDurationView.xhtml",
+          "note": null,
+          "iconName": "bar-chart",
+          "queryItemList": [
+            {
+              "id": "intervalType",
+              "nameZh": "时长类型",
+              "nameEn": "Interval Type",
+              "type": "SELECT_ONE",
+              "url": "/dpm/queryItem/intervalType/STOP_DURATION"
+            },
+            {
+              "id": "areaDbid",
+              "nameZh": "区域",
+              "nameEn": "Area",
+              "type": "SELECT_ONE",
+              "url": "/dpm/queryItem/area/STOP_DURATION"
+            }
+          ],
+          "subMenuItemList": []
+        },
+        {
+          "id": "page.changeoverSpeedView",
+          "nameZh": "换模速度",
+          "nameEn": "Changeover Speed",
+          "url": "/views/dpm/changeoverSpeedView.xhtml",
+          "note": null,
+          "iconName": "bar-chart",
+          "queryItemList": [
+            {
+              "id": "intervalType",
+              "nameZh": "时长类型",
+              "nameEn": "Interval Type",
+              "type": "SELECT_ONE",
+              "url": "/dpm/queryItem/intervalType/CHANGEOVER_SPEED"
+            },
+            {
+              "id": "areaDbid",
+              "nameZh": "区域",
+              "nameEn": "Area",
+              "type": "SELECT_ONE",
+              "url": "/dpm/queryItem/area/CHANGEOVER_SPEED"
+            }
+          ],
+          "subMenuItemList": []
+        },
+        {
+          "id": "page.changeoverDurationView",
+          "nameZh": "换模时间",
+          "nameEn": "Changeover Duration",
+          "url": "/views/dpm/changeoverDurationView.xhtml",
+          "note": null,
+          "iconName": "bar-chart",
+          "queryItemList": [
+            {
+              "id": "intervalType",
+              "nameZh": "时长类型",
+              "nameEn": "Interval Type",
+              "type": "SELECT_ONE",
+              "url": "/dpm/queryItem/intervalType/CHANGEOVER_SPEED"
+            },
+            {
+              "id": "areaDbid",
+              "nameZh": "区域",
+              "nameEn": "Area",
+              "type": "SELECT_ONE",
+              "url": "/dpm/queryItem/area/CHANGEOVER_SPEED"
+            }
+          ],
+          "subMenuItemList": []
+        },
+        {
+          "id": "page.customerComplaintNumberView",
+          "nameZh": "客户投诉数",
+          "nameEn": "Customer Complaint Number",
+          "url": "/views/dpm/customerComplaintNumberView.xhtml",
+          "note": null,
+          "iconName": "bar-chart",
+          "queryItemList": [
+            {
+              "id": "intervalType",
+              "nameZh": "时长类型",
+              "nameEn": "Interval Type",
+              "type": "SELECT_ONE",
+              "url": "/dpm/queryItem/intervalType/CUSTOMER_COMPLAINT_NUMBER"
+            }
+          ],
+          "subMenuItemList": []
+        },
+        {
+          "id": "page.customerReturnNumberView",
+          "nameZh": "客户退货数",
+          "nameEn": "Customer Return Number",
+          "url": "/views/dpm/customerReturnNumberView.xhtml",
+          "note": null,
+          "iconName": "bar-chart",
+          "queryItemList": [
+            {
+              "id": "intervalType",
+              "nameZh": "时长类型",
+              "nameEn": "Interval Type",
+              "type": "SELECT_ONE",
+              "url": "/dpm/queryItem/intervalType/CUSTOMER_COMPLAINT_NUMBER"
+            }
+          ],
+          "subMenuItemList": []
+        }
+      ]
+    }
+  ]
+}
